@@ -1,0 +1,60 @@
+@import url(reset.css);
+
+#wrapper {
+    width: 60%;
+    min-width: 250px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+}
+
+.masthead {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    margin: 2% 0;
+}
+
+.well {
+    max-width: 539px;
+    min-width: 250px;
+}
+
+.slide{
+    background-color: lightgray;
+    border: 1px solid;
+    border-radius: 7px;
+    text-align: center;
+    padding: 35px;
+    width: 145px;
+    height: 90px;
+    margin: 10px;
+}
+
+.navbar {
+    background-color: lightgray;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+li:before {
+    content: "* ";
+}
+
+li:hover {
+    text-decoration: underline;
+}
